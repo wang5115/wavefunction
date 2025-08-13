@@ -190,7 +190,7 @@ mask = np.abs(psi) > 1e-12
 lhs_term[mask] = -c_over_m * (psi_pp[mask] / psi[mask]) + V[mask]
 
 # ---------------- Equations (original + rearranged) ----------------
-st.title("Introduction of wavefunction")
+st.title("Introduction to wavefunction")
 st.markdown("""
 Before the discovery of the Schrödinger equation in 1926, numerous models were proposed to describe the structure of the atom, including J.J. Thomson’s “plum pudding” model (1904) and Ernest Rutherford’s nuclear model (1911). Rutherford’s gold foil experiment in 1909 demonstrated that atoms consist of a small, dense, positively charged nucleus surrounded by electrons.
 
